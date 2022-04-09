@@ -1,4 +1,4 @@
-# Fungsi untuk split list
+# Fungsi implementasi split(), dengan parameter (data, pemisah)
 def splitlist(a,b):
     count = 1
     for i in a:
@@ -47,3 +47,34 @@ def load_data(a):
             k += 1
 
     return data_organized
+
+# Fungsi implementasi len(x) - Untuk menghitung besar list
+def count_list (a):
+    count = 0
+    
+    for word in a:
+        count += 1
+
+    return count
+
+# Fungsi untuk mencetak padding
+def print_padding (a):
+    row = count_list(a)
+
+    column = count_list(a[0])
+
+    max = [0 for i in range (column)]
+
+    # Find maximum words
+    for i in range (column):
+        for j in range (row):
+            if (count_list(a[j][i]) > max[i]):
+                max[i] = count_list(a[j][i])
+
+    view = [["" for j in range (column)] for i in range (row)]
+
+    for i in range (column):
+        for j in range (row):
+            view[j][i] = a[j][i] + " " * (max [i] - count_list (a[j][i]))
+
+    return view
