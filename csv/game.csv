@@ -1,0 +1,6 @@
+id;nama;kategori;tahun_rilis;harga;stok
+GAME101;Patapon;Adventure;2019;100.000;10
+GAME102;Grand Racing Auto;Racing;2020;150.000;200
+GAME103;Microsoft Flight Simulator;Simulation;2020;200.000;1000
+GAME104;Minecraft;Simulation;2021;250.000;90
+GAME105;PlayerUnknown's Battlegrounds;Action;2022;300.000;50

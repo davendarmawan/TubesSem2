@@ -1,0 +1,6 @@
+game_id;nama;harga;kategori;tahun_beli
+GAME101;Patapon;100.000;Adventure;2019
+GAME102;Grand Racing Auto;150.000;Racing;2020
+GAME103;Microsoft Flight Simulator;200.000;Simulation;2020
+GAME104;Minecraft;250.000;Simulation;2021
+GAME105;PlayerUnknown's Battlegrounds;300.000;Action;2022
